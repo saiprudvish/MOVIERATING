@@ -1,0 +1,65 @@
+<div class=" mt-5 col-lg-12 col-md-12 col-sm-10 col-xs-3 ">
+    <a   class="ms-5"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/185px-Netflix_2015_N_logo.svg.png"   class="ms-5 ott mt-3" alt="" width="100px" height="100px">
+     </a>
+
+
+     <a  class="ms-5"><img src="https://png.pngitem.com/pimgs/s/160-1606690_hotstar-hotstar-logo-hd-png-download.png" class="ms-5 ott mt-3" alt="" width="100px" height="100px">
+    </a>
+    
+
+
+    <a   class="ms-5"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Aha_OTT_Logo.svg"  class="ms-5 mt-3 ott" alt="" width="100px" height="100px">
+     </a>
+ 
+   
+     <a     class="ms-5"><img src="https://images-eu.ssl-images-amazon.com/images/I/41mpv9rBhmL.png"  class="ms-5 ott mt-3" alt=""  width="100px" height="100px" >
+
+         </a>
+
+</div>
+
+       
+<h3 class="text-black mt-5">
+ Trending Movies
+ <hr class="text-black">
+ 
+ 
+ 
+</h3>
+<div class="responsive">
+    <!-- <div *ngFor="let name of productsSentByChild">{{name}}</div> -->
+
+    <input type="text" name="name" placeholder="Search by movie" class="form-control mt-2 w-50">
+<div class=" row row-cols-2 row-cols-sm-3 row-cols-md-4  row-cols-lg-6 g-4 mt-5 mb-5">
+ <div class="col" *ngFor="let trendObj of first" >
+     <app-moviedetails [productObj]=trendObj   (myEvent)="getProductDetailsFromChild($event)" ></app-moviedetails>
+ </div>
+</div>
+</div>
+<div class="row">
+<div class="card mt-5">
+
+<h4 class="text-dark mt-3">WHAT YOU MUSTWATCH</h4>
+<h6 class="text-dark">Keep Track Of your Watchlist With the option of trick mark (Watched)
+           <br>
+    on Top movies and TV Shows of all time,Carefully curated for your viewing pleasure
+</h6>
+
+
+
+</div>
+</div>
+<h3 class="text-black mt-5 ">
+Trending TV Shows
+<hr class="text-black">
+</h3>
+
+
+<div class="responsive">
+    <input type="text" name="name" placeholder="Search by movie" class="form-control mt-2 w-50">
+<div class=" row row-cols-2 row-cols-sm-3 row-cols-md-4  row-cols-lg-6 g-4 mt-5 mb-5">
+<div class="col" *ngFor="let trendObj of first">
+   <app-moviedetails [productObj]=trendObj></app-moviedetails>
+</div>
+</div>
+</div>

@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding: 10px 30px;
+   background-color:#ff0000;
+    
+    box-shadow: 2px 2px #ff0000;
+}
+.fas{
+    font-size: 20px;
+}
+.navbar-brand{
+    color: rgb(17, 38, 131);
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+img{
+    margin-left: 40px;
+
+}
+.nav-item{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item :hover{
+    font-weight: 600;
+    
+}
+.fas{
+    font-size: 25px;
+}
+.fa-tshirt{
+    font-size: 20px;
+}
+.active{
+    font-weight: bold;
+}
+
+
+
+@media  screen and (max-width:567px){
+    .navbar-brand{
+        font-size: 23px;
+        padding: 10px 10px;
+    }
+    img{
+        margin-left: 5px;
+        width:35px;
+    }
+    
+}
+
+/*Footer styles*/
+
+
+.bgcolor{
+    background-color: #E5E5E5;
+    color: #3C4858;
+}
+.mod{
+    cursor: pointer;
+}
+
+.mdi-36px {
+    font-size: 39px;
+    margin-right: 5px;
+}
+.btn{
+    border-radius:5px;
+    
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/*Navigation wrap*/
+/* .navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin-bottom: 30px;
+}
+.navigation-wrap .nav-link{
+} */
+
+
+
+/*modal*/
+.background{
+   background-color:#ff0000;
+   color: #3C4858;
+    border-radius: 20px;
+    border: 0px;
+    
+}
+.modal-content{
+    border-radius: 20px;
+}
+label{
+    font-weight: normal;
+    font-size: 15px;
+}
+@media  screen and (max-width:567px){
+    .modal-content{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+.imga{
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+.ott:hover{
+    transform: scale(1.6);
+ }
+ input{
+     border-radius: 12px;
+ }
+ .card{
+     border: 1px black;
+     width: 90%;
+     border-radius: 20px;
+     background-image: linear-gradient( to right,  #f47a60, #7fe7dc, #aed6dc, #ff9a8d, #4a536b);
+ }
+ .watched{
+     border-radius: 20px;
+ }
+ .movies{
+     cursor: pointer;
+     border-radius: 50px;
+     background-color: #f47a60;
+ }
+ .movies:hover{
+     background-color: #4a536b;
+ }

@@ -1,0 +1,29 @@
+.card{
+    border: 0px solid;
+    border-radius: 15px;
+}
+img{
+    border-radius: 10px;
+}
+h6{
+    font-size: 15px;
+}
+h5{
+    font-size: 14px;
+}
+.fab{
+    font-size: 20px;
+}
+.fab{
+    font-size: 16px;
+    /* margin-left: 5px; */
+}
+.genre{
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 30%; 
+}
+.cart{
+    border:solid darkgrey 8px;
+    border-radius: 14px;
+}
