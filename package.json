@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "ng build  --aot --prod"
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+
+   
   },
   "private": true,
   "dependencies": {
@@ -21,10 +23,12 @@
     "@angular/router": "~12.2.0",
     "bcryptjs": "^2.4.3",
     "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.4.0",
+    "node-modules": "^1.0.1",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
@@ -44,7 +48,6 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
   },
-
   "engines": {
     "node": "14.16.1",
     "npm": "8.3.1"

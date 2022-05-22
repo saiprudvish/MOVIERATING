@@ -57,6 +57,14 @@ mc.connect(databaseUrl, {useNewUrlParser:true,  useUnifiedTopology: true}, (err,
 app.use("/user", userApi)
 app.use("/product", ProductApi)
 //invalid path
+
+app.get('*',(req,res) =>{
+    res.sendFile(path.join(__dirname,'dist/ottwatchlist/index.html'), function(err){
+        if(err){
+            res.status(500).send(err)
+        }
+    })
+})
 app.use((req, res, next) => {
 
     res.send({ message: `path ${req.url} is invalid` })

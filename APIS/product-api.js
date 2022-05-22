@@ -14,7 +14,7 @@ productApi.get("/getproducts/:id", expressErrorHandler(async (req, res, next) =>
 
     let products = await productCollectionObject.find().toArray()
     // let first=userProdObj[Object.keys(userProdObj)[0]]
-    console.log(products)
+   // console.log(products)
     for (let key in products){
         let obj = products[key];
         
